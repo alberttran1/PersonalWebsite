@@ -20,7 +20,7 @@ export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  #media screen and (max-width: 820px) {
+  @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
 `
@@ -44,7 +44,7 @@ export const FooterLinkItems = styled.div`
   color: #fff;
 
   @media screen and (max-width: 420px) {
-    margin: 0l
+    margin: 0;
     padding: 10px;
     width: 100%;
   }
@@ -58,7 +58,7 @@ export const FooterLinkTitle = styled.h1`
 export const FooterLink = styled(Link)`
   color: #fff;
   text-decoration: none;
-  margin-box: 0.5rem;
+  margin: 0.5rem;
   font-size: 14px;
 
   &:hover {

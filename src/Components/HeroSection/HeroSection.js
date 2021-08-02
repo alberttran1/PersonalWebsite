@@ -4,7 +4,7 @@ import React from 'react'
 import { HeroContainer, HeroWrapper, HeroRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Description, BtnWrap, ImgWrap, Img} from './HeroElements'
 import { ButtonA } from '../Button/Button';
 
-const InfoSection = ({id, lightBg, imgStart, topline, lightText, subLightText, headline, subtitle, description,img,alt,buttonActi}) => {
+const InfoSection = ({id, lightBg, imgStart, topline, lightText, subLightText, headline, subtitle, description,img,alt}) => {
   return (
     <>
       <HeroContainer lightBg={lightBg} id={id}>

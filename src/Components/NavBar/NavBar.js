@@ -12,7 +12,8 @@ const NavBar = ({ toggle }) => {
 
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;
-    setVisible((prevScrollPos > currentScrollPos ));
+    const visible = prevScrollPos > currentScrollPos;
+    setVisible(visible);
     setPrevScrollPos(currentScrollPos);
   };
 
@@ -27,7 +28,7 @@ const NavBar = ({ toggle }) => {
 
   return (
     <>
-      <Nav style={{ top: visible? '0' : '-80px'}}>
+      <Nav style={visible ? null : { top: '-80px', boxShadow: 'none' }}>
         <NavLink to="hero" smooth={true} duration={1000}>
           <img src={logo} alt='logo' width="42" height="35"/>
         </NavLink>

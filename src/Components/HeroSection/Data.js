@@ -8,7 +8,7 @@ export const HeroData = {
   topline: "Hi, I'm",
   headline: 'Albert Tran',
   subtitle: 'Software Developer',
-  description: "A Toronto based developer currently studying Software Engineering at the University of Waterloo. I'm a quick learner with a passion for design a drive to create.",
+  description: "A Toronto based developer currently studying Software Engineering at the University of Waterloo. I'm a quick learner with a passion for design and a drive to create.",
   buttonLabel: 'Get started',
   imgStart: false,
   img: img1,

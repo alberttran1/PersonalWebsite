@@ -6,6 +6,7 @@ import HeroSection from '../Components/HeroSection/HeroSection'
 import NavBar from '../Components/NavBar/NavBar'
 import SideBar from '../Components/SideBar/SideBar'
 import LoadingScreen from '../Components/LoadingScreen/LoadingScreen'
+import Footer from '../Components/Footer/Footer'
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,6 +33,7 @@ const HomePage = () => {
     <HeroSection {...HeroData}/>
     <InfoSection {...homeObj2}/>
     <InfoSection {...homeObj3}/>
+    {/* <Footer/> */}
     </>
   )
 }
