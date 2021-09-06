@@ -1,7 +1,12 @@
 import React from 'react'
 //import { Button } from '../ButtonElements';
 
-import { HeroContainer, HeroWrapper, HeroRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Description, BtnWrap, ImgWrap, Img} from './HeroElements'
+import Slice from '../../../src/Images/slice.png'
+import Me from '../../../src/Images/me.png'
+
+import './HeroSection.scss'
+
+import { HeroContainer, HeroWrapper, HeroRow, Column1, TextWrapper, TopLine, Heading, Subtitle, Description, BtnWrap} from './HeroElements'
 import { ButtonA } from '../Button/Button';
 
 const InfoSection = ({id, lightBg, imgStart, topline, lightText, subLightText, headline, subtitle, description,img,alt}) => {
@@ -21,13 +26,10 @@ const InfoSection = ({id, lightBg, imgStart, topline, lightText, subLightText, h
               </BtnWrap>
             </TextWrapper>
             </Column1>
-            <Column2>
-            <ImgWrap>
-              <Img src={img} alt={alt}/>
-            </ImgWrap>
-            </Column2>
           </HeroRow>
         </HeroWrapper>
+        <img className="slice" src={Slice} alt=""/>
+        <img className="me" src={Me} alt=""/>
       </HeroContainer>
     </>
   )

@@ -1,0 +1,41 @@
+.slice {
+  position: absolute;
+  display: inline;
+  top: 0;
+  right: 0;
+  height: 100%;
+  animation: slideLeft 5s cubic-bezier(0,0.25,0.25,1);
+
+  @keyframes slideLeft{
+    0%{
+      transform: translateX(700px);
+    }
+    75%{
+      transform: translateX(700px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+}
+
+.me {
+  position: absolute;
+  display: inline;
+  bottom: 0;
+  right: 280px;
+  height: 85%;
+  animation: fadeIn 4s ease-out;
+
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    75%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+}

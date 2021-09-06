@@ -9,7 +9,7 @@ export const homeObj2 = {
   topline: 'So, who are you?',
   headline: 'About me',
   description: "Hi, I'm Albert and I'm a Software Developer. As a kid that spent his time designing video games and editing on Photoshop, I grew up with a knack for graphic design and a talent in computer science.",
-  description2: "Nowadays, I'm studying Software Engineering at Waterloo and I use my skills to learn about fun stuff like web development.",
+  description2: "Nowadays, I'm studying Software Engineering at Waterloo and I use my skills to develop web applications and create nfts.",
   description3: "Other than that I spend my time volunteering (occasionally building schools in Honduras), making digital art, and swimming (go Rubber Duckies!).",
   buttonLabel: 'Get started',
   imgStart: true,

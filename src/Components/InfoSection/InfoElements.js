@@ -16,7 +16,6 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
   justify-content: center;
   font-family: 'Sora', sans-serif;
   animation: slideUp 2s ease-in-out;

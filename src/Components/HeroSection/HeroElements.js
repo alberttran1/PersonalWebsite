@@ -151,10 +151,6 @@ export const Description = styled.p`
       opacity: 0;
       transform: translateY(-20px);
     }
-    75%{
-      opacity: 0;
-      transform: translateY(-20px);
-    }
     90%{
       opacity: 0;
       transform: translateY(-20px);
@@ -172,7 +168,10 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  position: absolute;
+  display: inline;
+  top: 0;
+  right: 0;
   height: 100%;
 `
 
