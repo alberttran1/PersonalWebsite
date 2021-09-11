@@ -2,7 +2,7 @@
   position: absolute;
   display: inline;
   top: 0;
-  right: 0;
+  right: calc(18vw - 500px);
   height: 100%;
   animation: slideLeft 5s cubic-bezier(0,0.25,0.25,1);
 }
@@ -11,7 +11,7 @@
   position: absolute;
   display: inline;
   bottom: 0;
-  right: 280px;
+  right: 18vw;
   height: 85%;
   animation: fadeIn 4s ease-out;
 }

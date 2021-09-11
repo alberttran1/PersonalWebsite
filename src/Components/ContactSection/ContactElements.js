@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const InfoContainer = styled.div`
+export const ContactContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#c5c6c7' : '#1f2833')};
 
@@ -8,43 +8,23 @@ export const InfoContainer = styled.div`
     padding: 100px 0;
   }
 `
-export const InfoWrapper = styled.div`
-  display: grid;
+export const ContactWrapper = styled.div`
+  display: flex;
   z-index: 1;
-  height: 800px;
+  height: 600px;
   width: 100%;
   max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   justify-content: center;
   font-family: 'Sora', sans-serif;
   animation: slideUp 2s ease-in-out;
 `
-
-export const InfoRow = styled.div`
-  display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
-  align-items: center;
-  grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
-
-  @media screen and (max-width: 768px) {
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
-  }
-`
-
-export const Column1 = styled.div`
-  padding: 0 15px;
-  grid-area: col1;
-`
-
-export const Column2 = styled.div`
-  padding: 0 15px;
-  grid-area: col2;
-`
-
-export const TextWrapper = styled.div`
+export const Column = styled.div`
+  display: block;
   max-width: 540px;
-  padding-top: 0;
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
   animation: slideDown 1s ease-in-out;
 
   @keyframes slideDown{
@@ -82,7 +62,6 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-  max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
@@ -91,17 +70,5 @@ export const Subtitle = styled.p`
 
 export const BtnWrap = styled.div`
   display: flex;
-  justify-content: flex-start;
-`
-
-export const ImgWrap = styled.div`
-  max-width: 555px;
-  height: 100%;
-  animation: slideDown 1s ease-in-out;
-`
-
-export const Img = styled.img`
-  width: 100%;
-  margin: 00 10px 0;
-  padding-right: 0;
+  justify-content: center;
 `

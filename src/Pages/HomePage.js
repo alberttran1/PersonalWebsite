@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import { homeObj2, homeObj3 } from '../Components/InfoSection/Data'
 import { HeroData } from '../Components/HeroSection/Data'
+import { ContactData } from '../Components/ContactSection/Data'
 import InfoSection from '../Components/InfoSection/InfoSection'
 import HeroSection from '../Components/HeroSection/HeroSection'
+import ContactSection from '../Components/ContactSection/ContactSection'
 import NavBar from '../Components/NavBar/NavBar'
 import SideBar from '../Components/SideBar/SideBar'
 import LoadingScreen from '../Components/LoadingScreen/LoadingScreen'
@@ -33,6 +35,7 @@ const HomePage = () => {
     <HeroSection {...HeroData}/>
     <InfoSection {...homeObj2}/>
     <InfoSection {...homeObj3}/>
+    <ContactSection {...ContactData}/>
     <Footer/>
     </>
   )
