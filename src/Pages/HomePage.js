@@ -8,7 +8,7 @@ import ContactSection from '../Components/ContactSection/ContactSection'
 import NavBar from '../Components/NavBar/NavBar'
 import SideBar from '../Components/SideBar/SideBar'
 import LoadingScreen from '../Components/LoadingScreen/LoadingScreen'
-import Footer from '../Components/Footer/Footer'
+// import Footer from '../Components/Footer/Footer'
 
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -36,7 +36,7 @@ const HomePage = () => {
     <InfoSection {...homeObj2}/>
     <InfoSection {...homeObj3}/>
     <ContactSection {...ContactData}/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

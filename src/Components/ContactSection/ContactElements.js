@@ -11,11 +11,12 @@ export const ContactContainer = styled.div`
 export const ContactWrapper = styled.div`
   display: flex;
   z-index: 1;
-  height: 600px;
+  height: 800px;
   width: 100%;
   max-width: 1100px;
   margin: auto;
   justify-content: center;
+  align-items: center;
   font-family: 'Sora', sans-serif;
   animation: slideUp 2s ease-in-out;
 `

@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const HeroContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#c5c6c7' : '#1f2833')};
-
+  position: relative;
+  overflow: hidden;
   @media screen and (max-width: 768px){
     padding: 100px 0;
   }
