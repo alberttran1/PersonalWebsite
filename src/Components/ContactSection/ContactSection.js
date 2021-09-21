@@ -27,7 +27,7 @@ const ContactSection = ({id, lightBg, lightText, subLightText, topLine, headLine
             <Heading lightText={lightText}>{headLine}</Heading>
             <Subtitle subLightText={subLightText}>{description}</Subtitle>
             <BtnWrap>
-              <ButtonA big={buttonBig}>{buttonText}</ButtonA>
+              <ButtonA big={buttonBig} href="mailto:a233tran@uwaterloo.ca">{buttonText}</ButtonA>
             </BtnWrap>
           </Column>
         :
